@@ -1,0 +1,11 @@
+
+Detail of Figures
+<br>
+<%= @figure.name %>
+<br>
+<%= @figure.landmarks.collect { |landmark| landmark.name  }.join(",")  %>
+
+
+<br>
+
+<%= @figure.titles.collect { |title| title.name  }.join(",")  %>
